@@ -10,6 +10,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}.%{source_date}-buildroot
 Source0: %{name}-%{version}.%{source_date}.tar.bz2
 License: GPL
 BuildArch: noarch
+Requires: mandriva-galaxy
 
 Conflicts: mandriva-galaxy < 2:2009.0
 
