@@ -2,14 +2,15 @@
 
 Name: mandriva-galaxy-data
 Summary: Mandriva Galaxy data files
-Version: 2009.0
-Release: %mkrel 9
+Version: 2009.1
+Release: %mkrel 10
 URL: http://svn.mandriva.com/cgi-bin/viewvc.cgi/soft/mandriva-galaxy-kde4
 Group: System/Configuration/Other
 BuildRoot: %{_tmppath}/%{name}-%{version}.%{source_date}-buildroot
 Source0: %{name}-%{version}.%{source_date}.tar.bz2
 License: GPL
 BuildArch: noarch
+BuildRequires: intltool
 Requires: mandriva-galaxy
 
 Conflicts: mandriva-galaxy < 2:2009.0
