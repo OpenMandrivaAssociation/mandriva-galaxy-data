@@ -1,9 +1,9 @@
-%define source_date 20090413
+%define source_date 20090416
 
 Name: mandriva-galaxy-data
 Summary: Mandriva Galaxy data files
 Version: 2009.0
-Release: %mkrel 8
+Release: %mkrel 9
 URL: http://svn.mandriva.com/cgi-bin/viewvc.cgi/soft/mandriva-galaxy-kde4
 Group: System/Configuration/Other
 BuildRoot: %{_tmppath}/%{name}-%{version}.%{source_date}-buildroot
