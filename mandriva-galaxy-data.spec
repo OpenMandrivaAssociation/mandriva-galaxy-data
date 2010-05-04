@@ -1,4 +1,4 @@
-%define source_date 20100502
+%define source_date 20100504
 
 Name: mandriva-galaxy-data
 Summary: Mandriva Galaxy data files
