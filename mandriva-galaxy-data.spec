@@ -3,7 +3,7 @@
 Name: mandriva-galaxy-data
 Summary: Mandriva Galaxy data files
 Version: 2010.1
-Release: %mkrel 4
+Release: %mkrel 5
 URL: http://svn.mandriva.com/cgi-bin/viewvc.cgi/soft/mandriva-galaxy-kde4
 Group: System/Configuration/Other
 BuildRoot: %{_tmppath}/%{name}-%{version}.%{source_date}-buildroot
