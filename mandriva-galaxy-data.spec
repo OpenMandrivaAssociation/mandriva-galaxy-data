@@ -1,9 +1,9 @@
-%define source_date 20100607
+%define source_date 20110211
 
 Name: mandriva-galaxy-data
 Summary: Mandriva Galaxy data files
-Version: 2010.1
-Release: %mkrel 6
+Version: 2011.0
+Release: %mkrel 1
 URL: http://svn.mandriva.com/cgi-bin/viewvc.cgi/soft/mandriva-galaxy-kde4
 Group: System/Configuration/Other
 BuildRoot: %{_tmppath}/%{name}-%{version}.%{source_date}-buildroot
@@ -28,6 +28,9 @@ This package groups all Mandriva Galaxy data files (html files show at startup)
 rm -rf %{buildroot}
 
 mkdir -p %{buildroot}/%{_datadir}/mdk/mandrivagalaxy
+
+# do not package .xcf file
+rm -f style/images/BDO-GALAXY.xcf
 
 cp -a html/*.html %{buildroot}/%{_datadir}/mdk/mandrivagalaxy
 cp -a style %{buildroot}/%{_datadir}/mdk/mandrivagalaxy
