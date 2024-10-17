@@ -4,7 +4,7 @@ Name: mandriva-galaxy-data
 Summary: Mandriva Galaxy data files
 Version: 2011.0
 Release: 8
-URL: http://svn.mandriva.com/cgi-bin/viewvc.cgi/soft/mandriva-galaxy-kde4
+URL: https://svn.mandriva.com/cgi-bin/viewvc.cgi/soft/mandriva-galaxy-kde4
 Group: System/Configuration/Other
 BuildRoot: %{_tmppath}/%{name}-%{version}.%{source_date}-buildroot
 Source0: %{name}-%{version}.%{source_date}.tar.bz2
